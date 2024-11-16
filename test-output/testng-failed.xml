@@ -5,10 +5,8 @@
     <classes>
       <class name="TestCodenLabAutomation">
         <methods>
-          <include name="DynamicInput"/>
-          <include name="SelectList"/>
           <include name="setUp"/>
-          <include name="RadioBtn"/>
+          <include name="ElementDisplayed"/>
         </methods>
       </class> <!-- TestCodenLabAutomation -->
     </classes>

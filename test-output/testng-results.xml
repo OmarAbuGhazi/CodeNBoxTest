@@ -1,32 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-12T19:08:56 GMT+03:00" name="Default suite" finished-at="2024-11-12T19:09:11 GMT+03:00" duration-ms="15351">
+  <suite started-at="2024-11-16T19:23:04 GMT+03:00" name="Default suite" finished-at="2024-11-16T19:23:50 GMT+03:00" duration-ms="45951">
     <groups>
     </groups>
-    <test started-at="2024-11-12T19:08:56 GMT+03:00" name="Default test" finished-at="2024-11-12T19:09:11 GMT+03:00" duration-ms="15351">
+    <test started-at="2024-11-16T19:23:04 GMT+03:00" name="Default test" finished-at="2024-11-16T19:23:50 GMT+03:00" duration-ms="45951">
       <class name="TestCodenLabAutomation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCodenLabAutomation@6ff65192]" started-at="2024-11-12T19:08:56 GMT+03:00" name="setUp" finished-at="2024-11-12T19:09:09 GMT+03:00" duration-ms="12802" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:04 GMT+03:00" name="setUp" finished-at="2024-11-16T19:23:16 GMT+03:00" duration-ms="11875" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="RadioBtn()[pri:1, instance:TestCodenLabAutomation@6ff65192]" started-at="2024-11-12T19:09:09 GMT+03:00" name="RadioBtn" finished-at="2024-11-12T19:09:09 GMT+03:00" duration-ms="121" status="PASS">
+        <test-method signature="RadioBtn()[pri:1, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:16 GMT+03:00" name="RadioBtn" finished-at="2024-11-16T19:23:16 GMT+03:00" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RadioBtn -->
-        <test-method signature="DynamicInput()[pri:2, instance:TestCodenLabAutomation@6ff65192]" started-at="2024-11-12T19:09:09 GMT+03:00" name="DynamicInput" finished-at="2024-11-12T19:09:11 GMT+03:00" duration-ms="2173" status="PASS">
+        <test-method signature="DynamicInput()[pri:2, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:16 GMT+03:00" name="DynamicInput" finished-at="2024-11-16T19:23:18 GMT+03:00" duration-ms="2150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DynamicInput -->
-        <test-method signature="SelectList()[pri:3, instance:TestCodenLabAutomation@6ff65192]" started-at="2024-11-12T19:09:11 GMT+03:00" name="SelectList" finished-at="2024-11-12T19:09:11 GMT+03:00" duration-ms="136" status="PASS">
+        <test-method signature="SelectList()[pri:3, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:18 GMT+03:00" name="SelectList" finished-at="2024-11-16T19:23:19 GMT+03:00" duration-ms="150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectList -->
-        <test-method signature="CheckBoxExamples()[pri:4, instance:TestCodenLabAutomation@6ff65192]" started-at="2024-11-12T19:09:11 GMT+03:00" name="CheckBoxExamples" finished-at="2024-11-12T19:09:11 GMT+03:00" duration-ms="85" status="PASS">
+        <test-method signature="CheckBoxExamples()[pri:4, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:19 GMT+03:00" name="CheckBoxExamples" finished-at="2024-11-16T19:23:19 GMT+03:00" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckBoxExamples -->
+        <test-method signature="SwitchWindow()[pri:5, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:19 GMT+03:00" name="SwitchWindow" finished-at="2024-11-16T19:23:38 GMT+03:00" duration-ms="19351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchWindow -->
+        <test-method signature="TabWindow()[pri:6, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:38 GMT+03:00" name="TabWindow" finished-at="2024-11-16T19:23:41 GMT+03:00" duration-ms="3217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TabWindow -->
+        <test-method signature="AlertExample()[pri:7, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:41 GMT+03:00" name="AlertExample" finished-at="2024-11-16T19:23:46 GMT+03:00" duration-ms="4308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertExample -->
+        <test-method signature="TableExample()[pri:8, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:46 GMT+03:00" name="TableExample" finished-at="2024-11-16T19:23:46 GMT+03:00" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TableExample -->
+        <test-method signature="ElementDisplayed()[pri:9, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:46 GMT+03:00" name="ElementDisplayed" finished-at="2024-11-16T19:23:48 GMT+03:00" duration-ms="2267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ElementDisplayed -->
+        <test-method signature="Enable_Disable()[pri:10, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:48 GMT+03:00" name="Enable_Disable" finished-at="2024-11-16T19:23:50 GMT+03:00" duration-ms="1713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enable_Disable -->
+        <test-method signature="MouseHoverTest()[pri:11, instance:TestCodenLabAutomation@2b0f373b]" started-at="2024-11-16T19:23:50 GMT+03:00" name="MouseHoverTest" finished-at="2024-11-16T19:23:50 GMT+03:00" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MouseHoverTest -->
       </class> <!-- TestCodenLabAutomation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
